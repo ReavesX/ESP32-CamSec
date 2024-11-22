@@ -38,7 +38,7 @@ esp_err_t init_camera(void); // Initializes the ESP32 Camera with default config
 
 camera_fb_t* snap_picture(void); // this function will capture a single photo -- returns pointer to the frame buffer or null on failure.
 
-void release_picture(camera_fb_t* fb); // releases the frame buffer so it can be viewed. -- fb points to the frame to frame buffer
+void release_picture(camera_fb_t* fb); // releases the frame buffer. -- fb points to the frame to frame buffer
 
 #endif
 
