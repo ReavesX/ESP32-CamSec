@@ -23,7 +23,7 @@
 
 
 
-# Store to SD CARD Example:
+# Store to SD CARD Example: c/c++
 `https://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card/sdmmc/components/sd_card`
 `https://github.com/cesanta/esp-idf/blob/master/examples/storage/sd_card/main/sd_card_example_main.c` c/c++ store to sd card with module.
 
@@ -33,3 +33,7 @@
 
 # Ard Framework C++ ESP32 SD:\
 `https://github.com/espressif/arduino-esp32/tree/master/libraries/SD/src`
+
+
+# Platformio IDE guide
+`https://www.youtube.com/watch?v=XLQa1sX9KIk `
