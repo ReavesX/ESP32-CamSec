@@ -41,18 +41,18 @@ esp_err_t init_sd_card(void) {
     return ESP_OK;
 }
 
-// Generate a filename in the format mm-dd-hh-ss.jpeg
 void generate_filename(char *buffer, size_t buffer_len) {
-    time_t now = time(NULL); // Get current time
+    time_t now = time(NULL);
     struct tm timeinfo;
-    localtime_r(&now, &timeinfo); // Convert to local time
+    localtime_r(&now, &timeinfo);
 
     snprintf(buffer, buffer_len, "/sdcard/%02d-%02d-%02d-%02d.jpeg",
-             timeinfo.tm_mon + 1, // Month (0-11, add 1)
-             timeinfo.tm_mday,    // Day (1-31)
-             timeinfo.tm_hour,    // Hour (0-23)
-             timeinfo.tm_sec);    // Seconds (0-59)
+            timeinfo.tm_mon + 1,
+            timeinfo.tm_mday,
+            timeinfo.tm_hour, 
+            timeinfo.tm_sec);
 }
+
 
 // Save a camera frame buffer to the SD card
 esp_err_t save_to_sd(camera_fb_t *frame) {
