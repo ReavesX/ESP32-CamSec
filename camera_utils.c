@@ -13,6 +13,7 @@
 #endif
 
 #include "esp_camera.h"
+#include "camera_utils.h"
 
 #define BOARD_ESP32_AITHINKER 1
 

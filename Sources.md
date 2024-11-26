@@ -1,3 +1,7 @@
+# Cam Board Datasheet:
+
+`https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/DFR0602_Web.pdf`
+
 # c/c++ programming example by espressif framework for initializing camera and determining how to use features of it:
 `https://github.com/espressif/esp32-camera/tree/master`
 
@@ -19,6 +23,17 @@
 
 
 
-# Store to SD CARD Example:
+# Store to SD CARD Example: c/c++
+`https://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card/sdmmc/components/sd_card`
+`https://github.com/cesanta/esp-idf/blob/master/examples/storage/sd_card/main/sd_card_example_main.c` c/c++ store to sd card with module.
 
-`https://github.com/espressif/esp-idf/tree/master/examples/storage/sd_card/sdmmc`
+# Example sd card store using arduino framework -- Demonstrates ideas I based my code on
+`https://github.com/RidmaPramuditha/ESP32-CAM-Take-Photo-and-Save-to-MicroSD-Card/blob/main/ESP32-CAM_Take_Photo_and_Save_to_MicroSD_Card/ESP32-CAM_Take_Photo_and_Save_to_MicroSD_Card.ino`
+
+
+# Ard Framework C++ ESP32 SD:\
+`https://github.com/espressif/arduino-esp32/tree/master/libraries/SD/src`
+
+
+# Platformio IDE guide
+`https://www.youtube.com/watch?v=XLQa1sX9KIk `

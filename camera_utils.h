@@ -1,5 +1,5 @@
-#ifndef ESP32_CAMERA_H
-#define ESP32_CAMERA_H  
+#ifndef CAMERA_UTILS_H
+#define CAMERA_UTILS_H
 
 
 #include <esp_camera.h>
@@ -41,5 +41,3 @@ camera_fb_t* snap_picture(void); // this function will capture a single photo --
 void release_picture(camera_fb_t* fb); // releases the frame buffer. -- fb points to the frame to frame buffer
 
 #endif
-
-
