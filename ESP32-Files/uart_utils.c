@@ -33,14 +33,16 @@ int uart_receive(uint8_t *data, int max_len, int timeout_ms) {
         // Process received instructions from the PIC16F877A
         if (data[0] == 'START') {
             // Example: If data received is 'A', do something
-            ESP_LOGI("UART", "Instruction A received. Performing action.");
+            ESP_LOGI("UART", "START Instruction received. Performing action.");
             // Action for instruction A
-        } else if (data[0] == 'B') {
+        } 
+        else if (data[0] == 'STOP') {
             
             // Example: If data received is 'B', do something else
-            ESP_LOGI("UART", "Instruction B received. Performing different action.");
+            ESP_LOGI("UART", "STOP Instruction received. Performing different action.");
             // Action for instruction B
-        } else {
+        } 
+        else {
             ESP_LOGI("UART", "Unknown instruction received.");
         }
     }

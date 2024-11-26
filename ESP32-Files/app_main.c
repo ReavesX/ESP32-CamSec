@@ -37,7 +37,7 @@ void app_main() {
         if (len == 0) {
             ESP_LOGI("UART", "No data received within timeout.");}
         
-        else{
+        elif (len == 5 ){
             // Capture a frame
             camera_fb_t *frame = snap_picture();
             if (!frame) {
