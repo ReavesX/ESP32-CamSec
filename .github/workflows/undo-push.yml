@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       branch:
-        description: 'Branch to undo commit'
+        description: 'PIC'
         required: true
         default: 'master'
 
