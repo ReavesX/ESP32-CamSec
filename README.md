@@ -27,9 +27,8 @@ Before starting, ensure you have the following:
   - Custom PCB (optional but recommended)
   
 - **Software:**
-  - Arduino IDE or ESP-IDF for ESP32-CAM programming
+  - ESP-IDF for ESP32-CAM programming
   - MPLAB X IDE for PIC16LF877A development
-  - Serial communication tools (e.g., PuTTY, TeraTerm)
   
 ### Repository Contents
 
@@ -46,34 +45,38 @@ Before starting, ensure you have the following:
    ```bash
    git clone https://github.com/ReavesX/ESP32-CamSec.git
    cd ESP32-CamSec
-Set Up the ESP32-CAM
+2. **Set Up the ESP32-CAM**
 
-Install necessary libraries in  ESP-IDF.
-Upload the provided code in the /src/esp32-cam/ folder.
-Program the PIC16LF877A
+- Install necessary libraries in  ESP-IDF.
+- Upload the provided code in the /src/esp32-cam/ folder.
+- Program the PIC16LF877A
 
-Open MPLAB X IDE and load the project from /src/pic16lf877a/.
-Compile and flash the firmware to the PIC16LF877A.
-Assemble Hardware
+3. **Setup Pic16f877a**
+- Open MPLAB X IDE and load the project from /src/pic16lf877a/
+- Compile and flash the firmware to the PIC16LF877A.
+- Assemble Hardware
 
-Connect the ESP32-CAM, PIC16LF877A, and motion sensor as per the provided schematics in /docs/.
-Test the System
+4. **Connect the ESP32-CAM, PIC16LF877A, and motion sensor as per the provided schematics in /docs/.**
 
-Power up the system and monitor UART communication for debugging.
-Trigger the motion sensor to validate video recording functionality.
-Documentation
-For detailed instructions and additional resources, refer to the following:
 
-ESP32-CAM Documentation
-PIC16LF877A Datasheet
-UART Protocol Reference
-Contributing
-Contributions are welcome! Please open an issue for bug reports or feature requests, or fork the repository and submit a pull request.
+5. **Test the System**
+- Power up the system and monitor UART communication for debugging.
+- Trigger the motion sensor to validate video recording functionality.
+- Documentation
 
-License
-This project is licensed under the MIT License.
+## For detailed instructions and additional resources, refer to the following:
+- ESP32-CAM Documentation
+- PIC16LF877A Datasheet
+- UART Protocol Reference
 
-Acknowledgements
-Espressif Systems for the ESP32-CAM module.
-Microchip for the PIC16LF877A microcontroller.
-The open-source community for tools and resources.
+#Contributing
+  Contributions are welcome! Please open an issue for bug reports or feature requests, or fork the repository and submit a
+  pull request.
+
+# License
+  This project is licensed under the MIT License.
+
+# Acknowledgements
+- Espressif Systems for the ESP32-CAM module.
+- Microchip for the PIC16LF877A microcontroller.
+- The open-source community for tools and resources.
