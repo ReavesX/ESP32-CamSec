@@ -1,6 +1,6 @@
-# ESP32-CamSec
+# Vehicle Camera Security System
 
-**ESP32-CamSec** is a motion-activated security camera system utilizing the ESP32-CAM and PIC16LF877A microcontroller. This project focuses on integrating the ESP32-CAM for capturing video and storing data, while delegating motion detection and other control logic to the PIC16LF877A, using UART for communication.
+**VCSS** is a motion-activated security camera system utilizing the ESP32-CAM and PIC16LF877A microcontroller. This project focuses on integrating the ESP32-CAM for capturing video and storing data, while delegating motion detection and other control logic to the PIC16LF877A, using UART for communication.
 
 ---
 
