@@ -22,7 +22,7 @@
       <itemPath>uart.c</itemPath>
       <itemPath>pir.c</itemPath>
       <itemPath>pir.h</itemPath>
-      <itemPath>basic_hal.h</itemPath>
+      <itemPath>basic-hal.h</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>

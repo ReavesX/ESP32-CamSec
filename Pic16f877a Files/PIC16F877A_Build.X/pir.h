@@ -32,9 +32,10 @@
 #define	PIR_H
 
 #include <xc.h> // include processor files - each processor file is guarded.  
-#include "basic_hal.h" // include simple hal created
+#include "basic-hal.h" // include simple hal created
 
 void pir_init(void);
+
 
 void pir_force_off(void);
 

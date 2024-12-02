@@ -7,7 +7,7 @@
 // Include headers
 #include <xc.h>
 #include "pir.h"
-#include "basic_hal.h"
+#include "basic-hal.h"
 #include "uart.h"
 
 // Config
@@ -15,7 +15,7 @@
 void main(void) {
     
         /*
-     * Initialize UART Commnuication
+     * Initialize UART Communication
      * Initialize PIR
      * Initialize Confirmation LED
      * 

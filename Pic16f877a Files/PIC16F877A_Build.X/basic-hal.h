@@ -33,8 +33,31 @@
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 
-// define what pins are being used for what with clearer names for readability. 
 
+#define XTAL_FREQ 20000000 // change to the value of your external crystal oscillator in hz
+
+
+// define on, off, input, output for readability
+#define INPUT 1
+#define OUTPUT 0
+#define ON 1
+#define OFF 0
+
+// PIR PIN Definitions
+
+
+// LED PIN Definitions
+
+
+// UART Pin Definitions
+#define UART_RX TRISCbits.TRISC7  // RX pin
+#define UART_TX TRISCbits.TRISC6  // TX pin
+
+// UART Configuration
+#define BAUD_RATE 115200 // Set desired Baud Rate here
+#define SPBRG_VAL ((XTAL_FREQ / (64 * BAUD_RATE)) - 1) // defines spbrg value according to datasheet formula
+#define TX_BIT_CONFIG 0X24
+#define RX_BIT_CONFIG 0X90
 
 #ifdef	__cplusplus
 extern "C" {

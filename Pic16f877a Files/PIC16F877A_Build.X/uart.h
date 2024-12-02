@@ -33,7 +33,7 @@
 
 #include <xc.h> // include processor files - each processor file is guarded.  
 #include <stdint.h> // included to specify integer sizes (i.e. 8,16,32 bit)
-#include "basic_hal.h" // include basic hal
+#include "basic-hal.h" // include basic hal
 
 
 void uart_init(void);
